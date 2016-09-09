@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4654D39CA362DC239F70B496 /* libPods-LeanCloud_1603.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E565798B0EEC3C709D0EB39F /* libPods-LeanCloud_1603.a */; };
+		D639777D1D80542700148B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D639777C1D80542700148B66 /* main.m */; };
+		D63977801D80542700148B66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D639777F1D80542700148B66 /* AppDelegate.m */; };
+		D63977861D80542700148B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63977841D80542700148B66 /* Main.storyboard */; };
+		D63977881D80542700148B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63977871D80542700148B66 /* Assets.xcassets */; };
+		D639778B1D80542700148B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63977891D80542700148B66 /* LaunchScreen.storyboard */; };
+		D671CB0E1D814313000C5F59 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D671CB0D1D814313000C5F59 /* MineViewController.m */; };
+		D671CB111D81432E000C5F59 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D671CB101D81432E000C5F59 /* LoginViewController.m */; };
+		D671CB141D81433E000C5F59 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D671CB131D81433E000C5F59 /* RegisterViewController.m */; };
+		D671CB181D814637000C5F59 /* SkinStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D671CB171D814637000C5F59 /* SkinStyle.m */; };
+		D671CB1B1D815157000C5F59 /* TuicoolUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D671CB1A1D815157000C5F59 /* TuicoolUser.m */; };
+		D6B948291D82BF4F00A9E470 /* SNSAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B948281D82BF4F00A9E470 /* SNSAccount.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1175EC682CC3F8D97DC06E75 /* Pods-LeanCloud_1603.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloud_1603.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloud_1603/Pods-LeanCloud_1603.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0A4F31826044D6A843ED5D /* Pods-LeanCloud_1603.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloud_1603.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloud_1603/Pods-LeanCloud_1603.release.xcconfig"; sourceTree = "<group>"; };
+		D63977781D80542700148B66 /* LeanCloud_1603.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloud_1603.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D639777C1D80542700148B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D639777E1D80542700148B66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		D639777F1D80542700148B66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		D63977851D80542700148B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63977871D80542700148B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D639778A1D80542700148B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D639778C1D80542700148B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D671CB0C1D814313000C5F59 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		D671CB0D1D814313000C5F59 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		D671CB0F1D81432E000C5F59 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D671CB101D81432E000C5F59 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D671CB121D81433E000C5F59 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		D671CB131D81433E000C5F59 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		D671CB151D814487000C5F59 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		D671CB161D814637000C5F59 /* SkinStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinStyle.h; sourceTree = "<group>"; };
+		D671CB171D814637000C5F59 /* SkinStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinStyle.m; sourceTree = "<group>"; };
+		D671CB191D815157000C5F59 /* TuicoolUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuicoolUser.h; sourceTree = "<group>"; };
+		D671CB1A1D815157000C5F59 /* TuicoolUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuicoolUser.m; sourceTree = "<group>"; };
+		D6B948271D82BF4F00A9E470 /* SNSAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSAccount.h; sourceTree = "<group>"; };
+		D6B948281D82BF4F00A9E470 /* SNSAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSAccount.m; sourceTree = "<group>"; };
+		E565798B0EEC3C709D0EB39F /* libPods-LeanCloud_1603.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeanCloud_1603.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63977751D80542700148B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4654D39CA362DC239F70B496 /* libPods-LeanCloud_1603.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B88CD9ADE8F2C4A0A2498486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E565798B0EEC3C709D0EB39F /* libPods-LeanCloud_1603.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB35DD3CF7978AD0DE7BBFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1175EC682CC3F8D97DC06E75 /* Pods-LeanCloud_1603.debug.xcconfig */,
+				7D0A4F31826044D6A843ED5D /* Pods-LeanCloud_1603.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D639776F1D80542700148B66 = {
+			isa = PBXGroup;
+			children = (
+				D639777A1D80542700148B66 /* LeanCloud_1603 */,
+				D63977791D80542700148B66 /* Products */,
+				BDB35DD3CF7978AD0DE7BBFF /* Pods */,
+				B88CD9ADE8F2C4A0A2498486 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D63977791D80542700148B66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63977781D80542700148B66 /* LeanCloud_1603.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D639777A1D80542700148B66 /* LeanCloud_1603 */ = {
+			isa = PBXGroup;
+			children = (
+				D6888F971D8101B700B3203D /* Resources */,
+				D6888F961D8101B000B3203D /* Vendors */,
+				D6888F951D8101A000B3203D /* Utils */,
+				D6888F941D81018D00B3203D /* Macros */,
+				D6888F931D81015B00B3203D /* Mine */,
+				D6888F921D81012F00B3203D /* Application */,
+				D63977841D80542700148B66 /* Main.storyboard */,
+				D63977871D80542700148B66 /* Assets.xcassets */,
+				D63977891D80542700148B66 /* LaunchScreen.storyboard */,
+				D639778C1D80542700148B66 /* Info.plist */,
+				D639777B1D80542700148B66 /* Supporting Files */,
+			);
+			path = LeanCloud_1603;
+			sourceTree = "<group>";
+		};
+		D639777B1D80542700148B66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D639777C1D80542700148B66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6888F921D81012F00B3203D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D639777E1D80542700148B66 /* AppDelegate.h */,
+				D639777F1D80542700148B66 /* AppDelegate.m */,
+				D671CB161D814637000C5F59 /* SkinStyle.h */,
+				D671CB171D814637000C5F59 /* SkinStyle.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D6888F931D81015B00B3203D /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				D6888F9A1D81032200B3203D /* Controllers */,
+				D6888F991D81031C00B3203D /* Views */,
+				D6888F981D81031300B3203D /* Models */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		D6888F941D81018D00B3203D /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				D671CB151D814487000C5F59 /* UtilsMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		D6888F951D8101A000B3203D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D6888F961D8101B000B3203D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		D6888F971D8101B700B3203D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6888F981D81031300B3203D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D671CB191D815157000C5F59 /* TuicoolUser.h */,
+				D671CB1A1D815157000C5F59 /* TuicoolUser.m */,
+				D6B948271D82BF4F00A9E470 /* SNSAccount.h */,
+				D6B948281D82BF4F00A9E470 /* SNSAccount.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D6888F991D81031C00B3203D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6888F9A1D81032200B3203D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D671CB0C1D814313000C5F59 /* MineViewController.h */,
+				D671CB0D1D814313000C5F59 /* MineViewController.m */,
+				D671CB0F1D81432E000C5F59 /* LoginViewController.h */,
+				D671CB101D81432E000C5F59 /* LoginViewController.m */,
+				D671CB121D81433E000C5F59 /* RegisterViewController.h */,
+				D671CB131D81433E000C5F59 /* RegisterViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63977771D80542700148B66 /* LeanCloud_1603 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D639778F1D80542700148B66 /* Build configuration list for PBXNativeTarget "LeanCloud_1603" */;
+			buildPhases = (
+				E24E275D19C674BB9C716CE5 /* [CP] Check Pods Manifest.lock */,
+				D63977741D80542700148B66 /* Sources */,
+				D63977751D80542700148B66 /* Frameworks */,
+				D63977761D80542700148B66 /* Resources */,
+				1541CE6CDD3CC8C7C9C8A82F /* [CP] Embed Pods Frameworks */,
+				28F5462F38D7F192E69D8CCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanCloud_1603;
+			productName = LeanCloud_1603;
+			productReference = D63977781D80542700148B66 /* LeanCloud_1603.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63977701D80542700148B66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 1000phone;
+				TargetAttributes = {
+					D63977771D80542700148B66 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BWP7674USN;
+					};
+				};
+			};
+			buildConfigurationList = D63977731D80542700148B66 /* Build configuration list for PBXProject "LeanCloud_1603" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D639776F1D80542700148B66;
+			productRefGroup = D63977791D80542700148B66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63977771D80542700148B66 /* LeanCloud_1603 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63977761D80542700148B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D639778B1D80542700148B66 /* LaunchScreen.storyboard in Resources */,
+				D63977881D80542700148B66 /* Assets.xcassets in Resources */,
+				D63977861D80542700148B66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1541CE6CDD3CC8C7C9C8A82F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloud_1603/Pods-LeanCloud_1603-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28F5462F38D7F192E69D8CCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloud_1603/Pods-LeanCloud_1603-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24E275D19C674BB9C716CE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63977741D80542700148B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B948291D82BF4F00A9E470 /* SNSAccount.m in Sources */,
+				D671CB181D814637000C5F59 /* SkinStyle.m in Sources */,
+				D671CB141D81433E000C5F59 /* RegisterViewController.m in Sources */,
+				D671CB111D81432E000C5F59 /* LoginViewController.m in Sources */,
+				D671CB1B1D815157000C5F59 /* TuicoolUser.m in Sources */,
+				D671CB0E1D814313000C5F59 /* MineViewController.m in Sources */,
+				D63977801D80542700148B66 /* AppDelegate.m in Sources */,
+				D639777D1D80542700148B66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D63977841D80542700148B66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63977851D80542700148B66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63977891D80542700148B66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D639778A1D80542700148B66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D639778D1D80542700148B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D639778E1D80542700148B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63977901D80542700148B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1175EC682CC3F8D97DC06E75 /* Pods-LeanCloud_1603.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LeanCloud_1603/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chaosky.LeanCloud-1603";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D63977911D80542700148B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0A4F31826044D6A843ED5D /* Pods-LeanCloud_1603.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LeanCloud_1603/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.chaosky.LeanCloud-1603";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63977731D80542700148B66 /* Build configuration list for PBXProject "LeanCloud_1603" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D639778D1D80542700148B66 /* Debug */,
+				D639778E1D80542700148B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D639778F1D80542700148B66 /* Build configuration list for PBXNativeTarget "LeanCloud_1603" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63977901D80542700148B66 /* Debug */,
+				D63977911D80542700148B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D63977701D80542700148B66 /* Project object */;
+}

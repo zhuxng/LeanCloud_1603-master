@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+
+target 'LeanCloud_1603' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for LeanCloud_1603
+
+  pod 'AVOSCloud'               # 数据存储、短信、云引擎调用等基础服务模块
+  pod 'AVOSCloudIM'             # 实时通信模块
+  pod 'AVOSCloudCrashReporting' # 错误报告模块
+
+  pod 'UMengSocialCOM'          # 友盟分享组件
+  
+  pod 'MBProgressHUD'           # Progress HUD
+  
+  pod 'SVProgressHUD'           # Progress HUD
+
+end
